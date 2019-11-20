@@ -38,6 +38,7 @@ namespace C_Labb2
             Console.WriteLine(circleList.CircleContent(new Position(5, 5), 4) + "\n");
 
             Console.WriteLine(list1[1] + "\n");
+            //Printar ut positionen på index 1
 
             SortedPosList list3 = new SortedPosList();
             SortedPosList list4 = new SortedPosList();
@@ -45,7 +46,8 @@ namespace C_Labb2
             list3.Add(new Position(1, 4));
             list4.Add(new Position(1, 1));
             list4.Add(new Position(2, 3));
-            Console.WriteLine(list4 - list3 + "\n");
+            Console.WriteLine(list3 - list4 + "\n");
+                //Returnerar positionerna på list3 som inte delas med positioner på list4
         }
     }
 }

@@ -71,7 +71,7 @@ namespace C_Labb2
                 }
             }
             
-                    }
+         }
 
         public static bool operator <(Position p1, Position p2)
         {
