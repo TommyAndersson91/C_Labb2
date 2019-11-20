@@ -55,7 +55,8 @@ namespace C_Labb2
             if (p1.Length() > p2.Length())
             {
                 return true;
-            }if (p2.Length() > p1.Length())
+            }
+            if (p2.Length() > p1.Length())
             {
                 return false; 
             }
